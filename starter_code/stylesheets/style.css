@@ -9,54 +9,225 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body{
-  background-color: #540B51;
-}
-.container{
-    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   flex-wrap: nowrap;
-   align-items: flex-start;
+body {
+  font-family: 'Poppins';
+  display: block;
+  margin: 0px;
 }
 
-ul li{
-  text-decoration: none;
+.container {
+  background-color: #540b51;
 }
-.sign-in{
+
+.logo {
+}
+
+header > div {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
-main{
-  margin: 0px;
-  background-color:#F3EAE2 ;
+.un-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #540b51;
+  height: 900px;
   margin: 0px;
 }
 
-.logos{
+.p-1 {
+  font-size: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1 {
+  color: #540b51;
+  background-color: aliceblue;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  padding: 20px 200px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn-2 {
+  color: aliceblue;
+  background-color: #4285f4;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  padding: 0px 135px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.heading {
+  margin-top: 600px;
+  color: aliceblue;
+  display: flex;
+  font-size: 4.5em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.log-in {
   display: flex;
   justify-content: center;
-}
-
-.align-logos{
-  width: fit-content;
-  display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-p {
-  text-align: center; 
+.section-2 {
+  background-color: #f2eae2;
+  margin-top: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.section-2 p {
+  font-size: 20px;
+}
+
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgs img {
+  max-width: 175px;
+  width: auto;
+  height: auto;
+  margin: 1%;
 }
 
 h2 {
-  text-align: center; 
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px 20px;
 }
 
-nav{
+.section-3 {
+  background-color: #f2eae2;
+}
+
+.section-4 {
+  background-color: #f2eae2;
+}
+
+.para {
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+.section-5 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  margin: 0px;
+}
+
+.btn-3 {
+  background-color: #540b51;
+  color: aliceblue;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  width: 90%;
+  height: auto;
+  padding: 20px 200px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn-4 {
+  color: #540b51;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  width: 90%;
+  height: auto;
+  padding: 20px 200px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.head3 {
+  margin-top: 350px;
+  color: black;
+  display: flex;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.list li {
+  align-items: center;
+}
+
+.percentage {
+  font-size: 65px;
+  color: #540b51;
+  font-weight: bold;
+}
+
+.p-2 {
+  max-width: 40%;
+  height: auto;
+  margin: 1px;
+}
+
+.section-6 {
+  margin-top: 600px;
+}
+
+/* nav{
     flex-wrap: nowrap;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,7 +241,4 @@ nav{
     align-items: center;
     justify-content: space-between;
     
-}
-
-
-@media (max-width:768px){}
+} */
